@@ -5,6 +5,8 @@ Code for “Self-Supervised Contrastive Learning for Multi-Label Images”. This
 
 The code provided here is not the final polished version, but it does include all the major data augmentation operations and the relevant IALoss components for processing COCO images. We hope this will meet the needs of those who wish to build upon our work.
 
+Recommended citation: Jiale Chen. Self-Supervised Contrastive Learning for Multi-Label Images. arXiv, 2025.
+
 ### Preparation
 
 Install PyTorch and download the COCO dataset. Similar to [SimSiam](https://github.com/facebookresearch/simsiam.git), the code release contains minimal modifications for both unsupervised pre-training and linear classification to that code.
